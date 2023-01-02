@@ -1,0 +1,43 @@
+
+
+.wallpaper{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("./../imgs/loginWallpaper.jpg");
+    background-position: 25% 10%;
+}
+
+.wallpaper img{
+    object-fit: contain;
+    object-position: 100% 50%;
+}
+
+.formContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items:center;
+    align-items: center;
+    
+}
+
+.formContent img{
+    margin-bottom: 40px
+    
+}
+
+.formContent .container{
+    width: 450px;
+    border: solid 0.5px rgb(180, 180, 180);
+    padding: 35px;
+    border-radius: 10px;
+    height: auto;
+}   
+
+.register{
+    color: rgb(59, 199, 199);
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

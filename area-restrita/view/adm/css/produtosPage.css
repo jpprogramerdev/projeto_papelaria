@@ -1,0 +1,57 @@
+.cadastrarDiv{
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.addProduto{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    border: 1.5px solid #363636;
+    background-color: #43b05c;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 100px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.addProduto:hover{
+    background-color: #215c2f;
+}
+
+.addProduto:link{
+    text-decoration: none !important;
+    
+}
+
+.addProduto .plus-icon{
+    border-right: 1.5px solid #363636;
+}
+
+.addProduto .plus-icon img{
+    height: 3rem;
+}
+
+.addText{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none !important;
+    color: white ;
+}
+
+.productsList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}

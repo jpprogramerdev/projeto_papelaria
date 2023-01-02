@@ -1,0 +1,163 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    min-height: 100vh;
+    display:flex; 
+    flex-direction:column; 
+}
+
+.menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuTitle{
+     height: 20vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-items: center;
+     justify-content: center;
+     font-size: 40px;
+     color: white;
+     font-weight: bolder;
+     background-color: #363A36;
+}
+
+.menuList{
+    background-color: #292626;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.menuList .listItem{
+    text-decoration: none;
+    color: white;
+    background-color: #292626;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 150px;
+    transition: 0.4s;
+}
+
+.menuList .listItem:hover{
+    background-color: white;
+    color: #292626;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.textBold{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descripText{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 45vw;
+    font-size: 18px;
+}
+
+.homeImg{
+    width: 540px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+.card1{
+    background-color: #477A8F;
+    color: white; 
+
+}
+
+.card2{
+    background-color: #ECCC59;  
+
+}
+
+.card2 .cardIcon{
+    margin-bottom: 12px;  
+
+}
+
+.card3{
+    background-color: #B5AC8B;
+
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    min-height: 150px;
+    margin-bottom: 10px;
+}
+
+.cardTitle{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    margin-top: auto;
+    color: white;
+    background-color: #292626;
+}
+
+@media screen and (max-width:550px){
+    .menuList .listItem{
+        width: 100%;    
+    }
+
+    .descripText{
+        width: 90vw;
+    }
+
+    .homeImg{
+        width: 300px;
+    }
+
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.container_productsList {
+    margin-top: 30px;
+}
+
+.card-img-top {
+    width: 230px;
+    height: 120px;
+}
+
+.card {
+    width: 235px;
+    float: left;
+    margin-left: 12px;
+    height: 280px;
+    margin-top: 40px;
+}
+
+.card:hover {
+    border: 1px solid orange;
+}
+
+.card-body {
+    background-color: rgb(238, 232, 232);
+}
+
+h5.card-title {
+    font-size: 1.5em;
+    padding: 2px 5px;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    color: rgb(34, 33, 33);
+}
+
+
+
+p.card-text {
+    font-size: 1em;
+    padding: 5px 5px;
+    text-align: justify;
+    margin-top: 5px;
+    color: rgb(87, 86, 86);
+}
+
+p.item-price {
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+}
